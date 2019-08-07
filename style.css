@@ -7,6 +7,7 @@
 }
 
 body{
+
   font-family: 'Roboto', sans-serif;
 
 }
@@ -64,32 +65,31 @@ body{
     padding-top: 230px;
 }
 
-.big-phone {
-  background: #341f92;
-  border-radius: 10px;
-}
-
 .phones__img{
-  margin-right: 1rem;
-  border-bottom: 1rem solid #fff;
-  border-right: 1rem solid #fff;
-  border-bottom-right-radius: 10px;
-  background: transparent;
+ 
+  border-right: 1rem solid #341f92;
+  border-bottom: 0.4rem solid #341f92;
+  border-top-right-radius: 1.3rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  
 }
 
-.small-phone{
-  
-    background: #341f92;
-    border-radius: 10px;
-  
+.phones__info{
+  background: #341f92;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  bottom: 4px;
 }
 
 .phones__img-small{
-  margin-right: 0.8rem;
-  border-bottom: 0.5rem solid #fff;
-  border-right: 0.5rem solid #fff;
-  border-bottom-right-radius: 10px;
-  background: transparent;
+  border-right: 0.8rem solid #341f92;
+  border-bottom: 0.2rem solid #341f92;
+  border-top-right-radius: 1rem;
+  padding-right: 0.6rem;
+  padding-bottom: 0.5rem;
+
 }
 
 .phones__info-small,
@@ -98,6 +98,11 @@ body{
   text-align: right;
   color: #fff;
   padding: 0.7rem;
+  background: #341f92;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  bottom: 4px;
 }
 
 .phones__info-small{
