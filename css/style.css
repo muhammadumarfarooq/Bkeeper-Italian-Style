@@ -52,7 +52,7 @@ body{
 
 .phones{
   height: 130vh;
-  background: url("./images/hfront.jpg") no-repeat center center/cover; 
+  background: url("../images/hfront.jpg") no-repeat center center/cover; 
   background-size: 100% 100vh;
   background-position: left top;
 }
@@ -67,16 +67,17 @@ body{
 
 .phones__img{
  
-  border-right: 1rem solid #341f92;
-  border-bottom: 0.4rem solid #341f92;
+  border-right: 1rem solid #033157;
+  border-bottom: 0.4rem solid #033157;
   border-top-right-radius: 1.3rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   
 }
 
+
 .phones__info{
-  background: #341f92;
+  background: #033157;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   position: relative;
@@ -84,8 +85,8 @@ body{
 }
 
 .phones__img-small{
-  border-right: 0.8rem solid #341f92;
-  border-bottom: 0.2rem solid #341f92;
+  border-right: 0.8rem solid #033157;
+  border-bottom: 0.2rem solid #033157;
   border-top-right-radius: 1rem;
   padding-right: 0.6rem;
   padding-bottom: 0.5rem;
@@ -98,7 +99,7 @@ body{
   text-align: right;
   color: #fff;
   padding: 0.7rem;
-  background: #341f92;
+  background: #033157;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   position: relative;
@@ -110,6 +111,10 @@ body{
 }
 
 /* Features */
+
+.features{
+  padding: 4rem;
+}
 
  .features-info{
   display: flex;
@@ -193,28 +198,24 @@ body{
 
 .blue{
   text-align: right;
-  color: #341f92;
+  color: #033157;
 }
 
 .blue-bg{
   color: #fff;
-  background: #341f92;
+  background: #033157;
   padding: 0.5rem;
   font-weight: bold;
   width: 24rem;
   text-align: right;
 
 }
-
 .image-detail ul{
   padding-left: 15rem;  
   list-style: square;
   font-size: 1.2rem;
 }
-
 /* Other Features */
-
-
 .other-features-items{
   display: flex;
 }
@@ -237,7 +238,7 @@ body{
 .align h3{
   padding-bottom: 4rem;
   padding-left: 6rem;
-  color: #341f92;
+  color: #033157;
   font-size: 1.1rem;
 }
 
@@ -247,7 +248,7 @@ body{
 }
 
 .align p{
-  background: #341f92;
+  background: #033157;
   padding: 0.5rem;
   font-weight: bold;
   color: #fff;
@@ -260,9 +261,12 @@ body{
   padding-top: 0.5rem;
 }
 
+
+/* Footer */
+
 .main-footer{
-  background: url("images/footer.jpg") no-repeat center center/cover;
-  position: relative; 
+  background: url("../images/footer.jpg") no-repeat center center/cover;
+  /* position: relative;  */
   height: 50vh;
 }
 
@@ -270,18 +274,12 @@ body{
   background-color: rgba(25, 10, 77, 0.5);
   width: 100%;
   height: 100%;
-}
-
-.main-footer-container{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   color: #ccc;
-  justify-content: space-around;
-  padding-top: 5rem;
-}
-
-.main-footer-items{
-  margin-left: 30rem;
- 
+  padding: 2rem;
 }
 
 .main-footer-items ul {
@@ -289,14 +287,11 @@ body{
   list-style: square;
 }
 
+
 .footer-register{
-  display: flex;
-  justify-content: center;
-  margin-top: 3.5rem;
   color: #ccc;
   border-top: 1px solid #ccc;
-  padding-top: 1rem;
-}
+} 
 
 
 /* .fb{

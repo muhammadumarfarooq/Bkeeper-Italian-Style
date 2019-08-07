@@ -1,0 +1,234 @@
+
+/* phones Area */
+
+.phones{
+  height: 100%;
+  background: url("../images/hfront.jpg") no-repeat center center/cover; 
+  background-size: 100% 100vh;
+  background-position: left top;
+}
+
+.phone-design{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9rem;
+}
+
+.phones__img{
+  
+  border: none;
+  width: 150px;
+  height: 284px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+
+  
+}
+
+
+.phones__info{
+  background: #033157;
+  padding: 0.5rem 5rem;
+  font-size: 0.8rem;
+}
+
+.phones__img-small{
+  border: none;
+  padding: 0;
+  width: 150px;
+  height: 284px;
+  padding-bottom: 0.5rem;
+}
+
+.phones__info-small,
+.phones__info{
+  font-weight: bold;
+  text-align: right;
+  color: #fff;
+  padding: 0;
+  background: #033157;
+  position: static;
+  text-align: center;
+  padding: 0.5rem 5rem;
+  border-radius: 0.5rem;
+  
+}
+
+.phones__info-small{
+  font-size: 0.8rem;
+}
+
+.big-phone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+}
+
+.small-phone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+
+/* Features */
+
+ .features{
+  padding: 0;
+}
+
+.features-info{
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+
+.features-info h2{
+  padding-left: 1rem;
+}
+
+.features-info-data{
+  flex: 1;
+  text-align: justify;
+  margin-right: 0;
+  padding: 1rem;
+} 
+
+/* Horizontal Line */
+
+.horizontal-line {
+  border-bottom: none;
+}
+
+
+
+/* Features */
+
+.features-items{
+  display: flex;
+  flex-direction: column;
+} 
+
+
+.features-item{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px dashed orange;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+} 
+
+.blue{
+  text-align: center;
+  color: #033157;
+}
+
+.blue-bg{
+  text-align: center;
+}
+
+.image-detail ul{
+  padding-left: 8rem;  
+}
+
+
+
+/* Other Features */
+
+.other-features-items{
+  flex-direction: column;
+}
+
+.other-features-item{
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px dashed orange;
+  
+}
+
+.other-features-item__info{
+  flex-direction: column;
+  align-items: center;
+}
+
+.align{
+  align-content: center;
+}
+
+.align h3{
+  padding-bottom: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.special{
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.align p{
+  padding: 0.5rem 9rem;
+}
+
+
+.feature-list{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+h2{
+  font-size: 1.3rem;
+}
+
+/* Curly Bracket */
+
+
+/* Curly  */
+
+.top {
+  margin-bottom: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+                                                                                      
+.borders {
+  border-bottom: #333 solid 1px;
+}
+.leftcurve {
+  height:5px;
+  width: 5px;
+  border-top:#333 solid 1px; 
+   border-right: #333 solid 1px; 
+   border-top-right-radius: 5px;
+  display: inline-block;
+}
+.rightcurve {
+  height: 5px;
+  width: 5px;
+  border-top: #333 solid 1px;
+  border-left: #333 solid 1px;
+  border-top-left-radius: 5px;
+  display: inline-block;
+  margin-left: -4px;
+  
+}
+.arrow {
+  background-color: white;
+  top: -9px;
+  left: 50%;
+  width:12px;
+  position: relative;
+  z-index:50;
+}
+
+
+
+
+
