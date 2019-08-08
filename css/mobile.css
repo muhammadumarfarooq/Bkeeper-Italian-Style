@@ -1,4 +1,13 @@
 
+.main-navbar{
+  display: none;
+}
+
+#mob-nav{
+  display: block;
+}
+
+
 /* phones Area */
 
 .phones{
@@ -14,17 +23,14 @@
     padding-top: 9rem;
 }
 
-.phones__img{
-  
+.phones__img{ 
   border: none;
   width: 150px;
   height: 284px;
   padding: 0;
   padding-bottom: 0.5rem;
 
-  
 }
-
 
 .phones__info{
   background: #033157;
@@ -171,7 +177,9 @@
 }
 
 .align p{
-  padding: 0.5rem 9rem;
+  padding: 0.5rem;
+  width: 24rem;
+  text-align: center;
 }
 
 
@@ -192,7 +200,7 @@ h2{
 /* Curly  */
 
 .top {
-  margin-bottom: 8px;
+  margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
   font-size: 1.2rem;
@@ -221,13 +229,15 @@ h2{
 }
 .arrow {
   background-color: white;
-  top: -9px;
+  top: -13px;
   left: 50%;
   width:12px;
   position: relative;
   z-index:50;
+
 }
 
+  
 
 
 

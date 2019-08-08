@@ -1,3 +1,17 @@
+html{
+  font-size: 14px;
+}
+
+.main-navbar{
+  display: block;
+}
+
+#mob-nav{
+  display: none;
+}
+
+
+
 /* Resetting */
 
 *{
@@ -129,11 +143,16 @@ body{
 
 /* Hori Line */
 .feature-heading{
-  padding: 1.5rem;
+  padding: 1.5rem 0; 
   display: flex;
   align-items: center;
   color: orange;
 }
+
+.feature-heading h2{
+  padding-left: 2rem;
+}
+
 
 .horizontal-line {
   border-bottom: 1px solid orange;
@@ -146,7 +165,7 @@ body{
 /* Curly  */
 
 .top {
-  margin-bottom: 8px;
+  margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
   font-size: 1.2rem;
@@ -174,11 +193,11 @@ body{
 }
 .arrow {
   background-color: white;
-  top: -7px;
-  left: 31rem;
-  width:12px;
+  top: -13px;
+  left: 50%;
+  width: 10.4px;
   position: relative;
-  z-index:50;
+  z-index: 50;
 }
 
 
@@ -218,6 +237,7 @@ body{
 /* Other Features */
 .other-features-items{
   display: flex;
+  padding: 4rem 0;
 }
 
 .other-features-item{
@@ -236,11 +256,12 @@ body{
 }
 
 .align h3{
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   padding-left: 6rem;
   color: #033157;
   font-size: 1.1rem;
 }
+
 
 .special{
   padding-bottom: 3rem !important;
@@ -248,10 +269,14 @@ body{
 }
 
 .align p{
+  
+  color: #fff;
   background: #033157;
   padding: 0.5rem;
   font-weight: bold;
-  color: #fff;
+  width: 14rem;
+  text-align: right;
+
 }
 
 
@@ -286,7 +311,6 @@ body{
   line-height: 1.8rem;
   list-style: square;
 }
-
 
 .footer-register{
   color: #ccc;
